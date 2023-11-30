@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(128, 127, 125);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    padding: 200px 0px 10px 0px;
+
+}
+
+.content {
+    display: block;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin-top: auto;
+}
