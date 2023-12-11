@@ -1,0 +1,54 @@
+/* RECEITAS */
+
+.container {
+    margin-bottom: 100px;
+}
+
+.receita1,
+.receita2,
+.receita3 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 40px 0 20px 0;
+    margin: 20px;
+}
+
+.receita1 img,
+.receita2 img,
+.receita3 img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto; /* Adicionado para centralizar a imagem */
+}
+
+.receita1 h3,
+.receita2 h3,
+.receita3 h3 {
+    text-align: center;
+}
+
+.receita1 p,
+.receita2 p,
+.receita3 p {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.receita1 ul,
+.receita2 ul,
+.receita3 ul {
+    margin-left: 30px;
+}
+
+.receita1 h4,
+.receita2 h4,
+.receita3 h4 {
+    margin-left: 20px;
+}

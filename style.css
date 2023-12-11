@@ -1,36 +1,60 @@
+/* General config */
+
 body {
     background-color: rgb(128, 127, 125);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
-a {
+/* NavbBar */
+.nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+    height: 45px;
+}
+
+.nav a {
     text-decoration: none;
-    color: black;
+    color: white;
+    padding: 10px;
 }
 
+.nav a:hover {
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 200px;
-    padding: 200px 0px 10px 0px;
-
+color: yellow;
 }
+
+/* Main Home */
 
 .content {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
     text-align: center;
-    margin-top: auto;
+    align-items: center;
+    padding-top: 130px;
+    margin: 0;
+}
+.content img {
+    width: 200px;
+    height: 200px;   
 }
 
+/* Footer */
 footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    font-size: 18px;
-    background-color: black;
-    color: white;
-    margin-top: auto;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    padding-bottom: 30px;
 }
+
