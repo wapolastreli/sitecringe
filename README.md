@@ -5,7 +5,7 @@ Projeto do primeiro site em HTML e CSS do Curso de Desenvolvimento Full Stack.
 <br>
 
 <p align="center">
-  <img alt="Projeto Site Cringe" src="./assets/Preview.png/" width="100%">
+  <img alt="Projeto Site Cringe" src="./Assets/Preview.png/" width="100%">
 </p>
 
 ## 🚀 Tecnologias
